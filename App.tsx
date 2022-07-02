@@ -4,7 +4,7 @@ import { ThemeProvider } from 'styled-components';
 import {
   useFonts,
   Inter_400Regular,
-  Inter_500Medium
+  Inter_500Medium,
 } from '@expo-google-fonts/inter';
 import {
   Archivo_400Regular,
