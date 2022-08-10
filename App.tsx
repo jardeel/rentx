@@ -13,7 +13,9 @@ import {
 } from '@expo-google-fonts/archivo';
 
 import { Home } from './src/screens/Home';
+import { CarDetails } from './src/screens/CarDetails';
 import theme from './src/styles/theme';
+import { StatusBar } from 'expo-status-bar';
 
 export default function App() {
   const [fontsLoaded] = useFonts({
@@ -30,7 +32,9 @@ export default function App() {
 
   return (
     <ThemeProvider theme={theme}>
-      <Home />
+      {/* <Home /> */}
+      <StatusBar />
+      <CarDetails />
     </ThemeProvider>
   );
 }
