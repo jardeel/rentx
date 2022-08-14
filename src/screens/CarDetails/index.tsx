@@ -1,6 +1,7 @@
 import { BackButton } from '../../components/BackButton';
 import { ImageSlider } from '../../components/ImageSlider';
 import { Acessory } from '../../components/Acessory';
+import { Button } from '../../components/Button';
 
 import speedSvg from '../../assets/speed.svg';
 import accelerationSvg from '../../assets/acceleration.svg';
@@ -22,7 +23,8 @@ import {
   Period,
   Price,
   About,
-  Acessories
+  Acessories,
+  Footer
 } from './styles';
 
 export function CarDetails(){
@@ -67,6 +69,10 @@ export function CarDetails(){
           blanditiis ut.
         </About>
       </Content>
+
+      <Footer>
+        <Button title="Confirmar"/>
+      </Footer>
     </Container>
   )
 }
